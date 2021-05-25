@@ -1,0 +1,36 @@
+/* *********************************** */
+/* *** Estilos SOLO para header.html *** */
+/* *********************************** */
+
+header {
+  background-color: F8F8F8;
+  display: grid;
+  grid-template-columns: repeat(1, 1366px);
+grid grid-template-rows: height: 5rem;
+justify-items: left;
+align-items: left;
+}
+
+a {
+  text-decoration: none;
+color: black;
+}
+
+
+.container{
+position: absolute;
+width: 1440px;
+height: 80px;
+left: 0px;
+top: 0px;
+
+background: #F8F8F8;
+}
+
+#desktop_menu{
+  display: grid;
+  justify-content: right;
+  align-content: center;
+  grid-auto-flow: column;
+  grid-gap: 1.5em;
+}

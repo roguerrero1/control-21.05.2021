@@ -3,15 +3,19 @@
 /* *********************************** */
 
 /* Tipografía */
-@font-face {
-    font-family: "";
-    src: url("") format("woff2"),
-         url("") format("woff");
-}
 
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../assets/font/Roboto-Regular.woff2') format('woff2'),
+        url('../assets/font/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 /* ******************************** */
 
 /* Colores */
+
 
 /* ******************************** */
 

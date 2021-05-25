@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <!-- SEO = Básico -->
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- SEO = Redes Sociales -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <!-- App Web, inidicar al navegador que elementos mostrar en un JSON -->
+    <link rel="manifest" href="site.webmanifest" />
+    <!-- icono de acceso para IOS -->
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Recordar que favicon.ico tiene que estar en el directorio inicial -->
+
+    <title>banner</title>
+
+    <!-- links de estilos -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/banner.css" />
+    <!-- Se cambia el tema de algunos navegadores -->
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+  <body>
+    <div id="container">
+      <!-- *** ESTRUCTURA SEMÁNTICA *** -->
+      <!-- Header (encabezado de la página, zona superior) -->
+      <header>
+        <!--banner de adolescentes-->
+        <picture id="bannerAdolescentes">
+          <source
+            srcset="./assets/img/desktop/banneradolescentes.jpg 1x, ./assets/img/desktop/banneradolescentes@2x.jpg 2x, ./assets/img/desktop/banneradolescentes@3x.jpg 3x"
+            media="(device-width)"
+          />
+          <img class="banneradolescentes" src="" alt="banner con adolescentes" />
+        </picture>
+      </header>
+    </div>
+    <!-- *** Google Analytics *** -->
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
+</html>
